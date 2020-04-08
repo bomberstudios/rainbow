@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Rainbow 🌈",
+      "identifier": "rainbow.my-command-identifier",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "Rainbow 🌈",
+    "isRoot": true,
+    "items": [
+      "rainbow.my-command-identifier"
+    ]
+  }
+}
