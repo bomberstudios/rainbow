@@ -1,6 +1,6 @@
 {
   "name": "rainbow",
-  "description": "",
+  "description": "Generates random colors and swatches, for testing",
   "version": "0.1.1",
   "engines": {
     "sketch": ">=49.0"
