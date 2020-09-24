@@ -3,16 +3,37 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "Rainbow 🌈",
-      "identifier": "rainbow.my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Generate 50 Colors",
+      "identifier": "rainbow.generate-50-colors",
+      "script": "./my-command.js",
+      "handler": "generate50Colors"
+    },
+    {
+      "name": "Generate 100 Colors",
+      "identifier": "rainbow.generate-100-colors",
+      "script": "./my-command.js",
+      "handler": "generate100Colors"
+    },
+    {
+      "name": "Generate 50 Swatches",
+      "identifier": "rainbow.generate-50-swatches",
+      "script": "./my-command.js",
+      "handler": "generate50Swatches"
+    },
+    {
+      "name": "Generate 100 Swatches",
+      "identifier": "rainbow.generate-100-swatches",
+      "script": "./my-command.js",
+      "handler": "generate100Swatches"
     }
   ],
   "menu": {
     "title": "Rainbow 🌈",
-    "isRoot": true,
     "items": [
-      "rainbow.my-command-identifier"
+      "rainbow.generate-50-colors",
+      "rainbow.generate-100-colors",
+      "rainbow.generate-50-swatches",
+      "rainbow.generate-100-swatches"
     ]
   }
 }
